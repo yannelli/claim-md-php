@@ -3,6 +3,7 @@
 namespace Nextvisit\ClaimMDWrapper\Requests;
 
 use GuzzleHttp\Exception\GuzzleException;
+use GuzzleHttp\Psr7\Utils;
 use InvalidArgumentException;
 use Nextvisit\ClaimMDWrapper\Client;
 use Nextvisit\ClaimMDWrapper\DTO\EligibilityDTO;
